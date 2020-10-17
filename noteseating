@@ -1,0 +1,18 @@
+(.) Department, year 1 & 2 that the user selects can't be the same
+
+(.) Only checkerboard seating pattern is available
+
+(.) Seating allocation starts ^ v, < >
+
+(.) Only one seating session can be created (NOTE: Multiple seating allocation can be implemented in the by creating a separate schema for the second session or using any other schema logic that could prevent redundancy)
+
+(.) No of rows or columns should be >= 2 (i.e) atleast (2 rows x 2 colums) 4 students should be seated in a room
+
+(.) Modification when done to a seating document leads to conflicts
+
+(.) Initialization needs to be done when allocating seats for the first time(considering on whole, that the application is being used for the first time) (Initialization is done by pressing the "Create seating space" x2)
+
+(.) Allocator need to make sure that 2 different departments to be paired up on whole(without any student remaining in any of those 2 selected department), because running into cases like only one department is remaining to be allocated and rest all filled there's no way to allocate that single department to the algorithm's setup(Even when user selects the same department in department 1 & 2 raises an error during validation )
+
+(.) If any set of new students have created a student account, they won't be considered during the seating allocation process unless or until the closure is restarted(reinitialization of the schema to be done). Restart should be done by pressing the delete all button or by deleting the last seating space (if any))
+
