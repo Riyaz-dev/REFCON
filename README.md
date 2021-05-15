@@ -8,7 +8,7 @@ INFO:
 
     (.) Predefined test data can be deleted
 
-    (.) Modules that makes use of sending messages to students might not work since API has some issues
+    (.) Modules that makes use of sending messages might not work since API has some issues
 
 ________________________________________________________________________________
 
@@ -18,7 +18,7 @@ Admin Account/Password: admin/admin
 
 ________________________________________________________________________________
 
-TECHNOLOGIES INVOLVED:
+TECHNOLOGIES USED:
 
     Client Side: HTML, CSS, JAVASCRIPT
 
